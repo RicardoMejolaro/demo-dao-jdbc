@@ -11,7 +11,7 @@ public interface SellerDao {
 	void upadte(Seller seller);
 	void delateById(Integer id);
 	Seller findById(Integer id);
-	List<Seller> finAll();
+	List<Seller> findAll();
 	List<Seller> findByDepartment(Department department);
 
 }
